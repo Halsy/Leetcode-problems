@@ -1,10 +1,15 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        n = len(nums)
-        for i in range(n - 1):
-            for j in range(i + 1, n):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
+        num_dict = {}
+        for index, num in enumerate(nums):
+            complement = target - num
+            if complement in num_dict:
+                # Complement found, return the indices
+                return [num_dict[complement], index]
+            else:
+                # Store the current number and its index
+                num_dict[num] = index
+        # Return empty list if no pair is found
         return []
 
 
