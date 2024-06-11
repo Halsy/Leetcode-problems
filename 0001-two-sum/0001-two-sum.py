@@ -6,4 +6,10 @@ class Solution:
                 if nums[index1]+nums[index2]==target:
                     index_list.append(index1)
                     index_list.append(index2)
+            if len(index_list)==2:
+                break
         return index_list
+
+
+c1=Solution()
+print(c1.twoSum([1,2,3,4,5,6,7,8,9],15))
