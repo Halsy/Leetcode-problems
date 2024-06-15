@@ -19,3 +19,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/Halsy/Leetcode-problems/tree/master/1137-height-checker) |
+# String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Halsy/Leetcode-problems/tree/master/0020-valid-parentheses) |
+# Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Halsy/Leetcode-problems/tree/master/0020-valid-parentheses) |
