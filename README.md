@@ -33,3 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Halsy/Leetcode-problems/tree/master/0003-longest-substring-without-repeating-characters) |
+# Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/Halsy/Leetcode-problems/tree/master/0009-palindrome-number) |
